@@ -1,0 +1,86 @@
+:root{
+    --act_color:#E5524A;
+    --drop_colorbg:#FFD2D0;
+    --hover_colorbtt:  #FE7062;
+    --drop-cont_colora: black;
+    --menu_colora: #E9605A;
+    --menu_a-hover: #ff9f9a;
+     --bg_menu: #ffffff; 
+    --bg_shadow: rgba(0, 0, 0, 0.26);
+    --logo_color: #170f6e;
+    --bg_pag: #ffd4d252;
+    ;
+}
+
+.container{
+    margin: 50px;
+    justify-content: center;
+}
+.container h1{
+    font-size: 40px;
+    text-align: center;
+}
+.container h2{
+    margin: 28px;
+    background-color: var(--drop_colorbg) ;
+}
+ol{
+    list-style-type:decimal;
+}
+.section_text{
+    max-width: 80%;
+    height: 100%;
+    background-color: var(--bg_pag);
+    margin: 0% 0% 10% 10%;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+.section-time h1{
+    text-align: center;
+    line-height:40px;
+    border-radius: 7px;
+    color: white;
+    border-color: white;
+}
+.section-time{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-time .box{
+    background-color: var(--bg_pag);
+    text-align: center;
+    width: 300px;
+    height: auto;
+    color: black;
+    margin: 10px;
+    border-radius: 7px;
+}
+ .box img{
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    height: 200px;
+    border-radius: 13px;
+}
+.section-time .box p{
+    text-align: justify;
+    font-size: 15px;
+    padding: 15px;
+    margin: 0%;
+}
+.section-time .box h3{
+    font-size: 15px;
+    color: rgb(82, 82, 82);
+}
+.section-time .box a img{
+    width: 30px;
+    height: 30px;
+    margin: 0%;
+    text-align: justify;
+}
