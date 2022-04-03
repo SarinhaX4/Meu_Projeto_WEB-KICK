@@ -11,6 +11,10 @@
      --bg_menu: #ffffff; 
     --bg_shadow: rgba(0, 0, 0, 0.26);
     --logo_color: #170f6e;
+    --color_active: #5a4fd8;
+}
+#logo a{
+    display: inline-block;
 }
 #logo{
     display: flex;
@@ -95,9 +99,8 @@ button{
 }
 
 #active{
-    border-bottom: 1px solid var(--act_color);
-    color: var(--act_color);
-    padding: 2px 10px;
+    color: var(--logo_color);
+    font-weight: bold;
 
 }
 
